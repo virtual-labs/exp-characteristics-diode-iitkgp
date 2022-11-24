@@ -62,7 +62,7 @@ The strength of the depletion zone electric field increases as the reverse-bias 
 
 ### Diode Equation
 
-In the forward-biased and reversed-biased regions, the current $$(I_f)$$, and the voltage $$(V_f)$$, of a semiconductor diode are related by the diode equation:
+In the forward-biased and reversed-biased regions, the current I<sub>f</sub>, and the voltage V<sub>f</sub>, of a semiconductor diode are related by the diode equation:
 
 $$I_f=I_s(exp^{\frac{V_f}{nV_T}}−1)$$
 
