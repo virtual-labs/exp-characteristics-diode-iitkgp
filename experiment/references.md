@@ -5,5 +5,7 @@
 - David J. Bates, Albert Malvino- Electronic Principles, Tata McGraw-Hill Education Pvt. Ltd., 2013
 
 #### Web Lectures
-- [NPTEL Note](https://nptel.ac.in/)
+- [NPTEL Note of Semiconductor Materials](http://nptel.ac.in/courses/117103063)
+- [NPTEL Note of PN Junction Diodes](http://nptel.ac.in/courses/117103063)
+- [NPTEL Note of Diode Equivalent Circuits](http://nptel.ac.in/courses/117103063)
 
