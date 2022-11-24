@@ -66,11 +66,11 @@ In the forward-biased and reversed-biased regions, the current $$(I_f)$$, and th
 
 $$I_f=I_s(exp^{\frac{V_f}{nV_T}}−1)$$
 
-where,
-$$I_s$$ is reverse saturation current or leakage current,
-$$I_f$$ is current through the diode(forward current),
-$$V_f$$ is potential difference across the diode terminals(forward voltage)
-$$V_T$$ is thermal voltage, given by
+where,<br/>
+I<sub>s</sub> is reverse saturation current or leakage current,<br/>
+I<sub>f</sub> is current through the diode(forward current),<br/>
+V<sub>f</sub> is potential difference across the diode terminals(forward voltage)<br/>
+V<sub>T</sub> is thermal voltage, given by<br/>
 
 $$V_T=\frac{kT}{q}$$
 
