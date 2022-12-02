@@ -6,13 +6,15 @@
 <img src="experiment/images/iitkgp.png" width="10%">
 </div>
 
+### About the Experiment
+
 <b>Discipline | <b> Electronics and Communication and Engineering 
 :--|:--|
 <b> Lab | <b> **Basic Electronics**
 <b> Experiment|     <b> **VI Characteristics of a Diode and Experiment 5**
 
 
-### About the Experiment 
+### Subject Matter Expert 
 
 <!--Fill a brief description of this experiment here-->
 
