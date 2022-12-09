@@ -1,4 +1,4 @@
-### Aim of the experiment
+## Aim of the experiment
 
 At the end of the experiment, the student should be able to
 - Explain the structure of a P-N junction diode
