@@ -1,0 +1,393 @@
+<!-- This file needs to be edited by the lab developer to suit
+the requirements of their lab in particular.-->
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Electronics</title>
+
+    </head>
+
+    <body>
+        <div id="experiment">
+            <!-- The Experiment Document Container-->
+            <!-- The lab Header contains the logo and the name of the lab,
+      usually displayed on the top of the page-->
+
+            <header class="default" id="experiment-header">
+                <div class="logo" id="experiment-header-logo">
+                    <!-- Enclose the logo image of your lab or write it in 
+              text-->
+                    <img src="../images/logo.jpg"></div>
+
+                <div class="heading" id="experiment-header-heading">
+                    <!-- Write the name of your lab and link it to the home 
+          page of your lab (h1 tag is preferred while writing your 
+          lab name)-->
+                    <a href="../index.html">Basic Electronics Lab</a>
+                </div><!-- Add any additional element you want to add to the lab 
+        header, For example : Help (Enclosing them with suitable 
+        div is recommended)-->
+            </header><!-- The lab article is the main content area where all the 
+      experiment content sits-->
+
+            <article id="experiment-article">
+                <!-- The lab article has an header, optional navigational 
+        menu, number of sections, an optional sidebar and a closing 
+        footer-->
+
+                <div class="breadcrumb" id="experiment-article-breadcrumb"></div>
+
+                <header class="heading" id="experiment-article-heading">
+                    VI Characteristics of a Diode
+                </header><!-- Navigation menu is useful to organize the view of 
+          multiple sections inside the article-->
+
+                <nav class="default" id="experiment-article-navigation">
+                    <ul id="experiment-article-navigation-menu">
+                        <!-- The menu can be dynamically generated to contain 
+              the headings of your sections or instead write the 
+              menu items of your choice individually enclosedu in 
+              &lt;li&gt; tag as shown below-->
+                    </ul>
+                </nav><!-- All the sections of your lab or experiment can be 
+          enclosed together with a div element as shown below-->
+
+                <div id="experiment-article-sections">
+                    <!-- First section of the article-->
+
+                    <!-----------------------------------SECTION - 1---------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-1">
+                        <div class="icon" id="experiment-article-section-1-icon">
+                            <!-- Enclose the icon image of your lab -->
+                            <img src="../images/theory.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a   div tag. -->
+
+                        <div class="heading" id="experiment-article-section-1-heading">
+                            Theory
+                        </div><!-- Write the section content inside a paragraph element, You can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-1-content">   
+                            <b>Objectives</b><br><br>
+                            At the end of the experiment, the student should be able to
+                            <ol>
+                                <li>Explain the structure of a P-N junction diode</li>
+                                <li>Explain the function of a P-N junction diode</li>
+                                <li>Explain forward and reverse biased characteristics of a Silicon diode</li>
+                                <li>Explain forward and reverse biased characteristics of a Germanium diode</li>
+                            </ol><br><br>
+                            <b>Familiarization with Diodes </b><br><br>
+                            <b>Forward Biased</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode1.png" style="width:500px ; height:300px">
+                                </p><br>
+                                Figurer:1
+                            </div><br>
+                            <p>Mark the correct schematic with appropriate current direction for a forward-biased diode.A – Anode, K- Cathode</p><br><br>
+                            <b>Reverse Biased</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode2.png" style="width:500px ; height:300px">
+                                </p><br>
+                                Figurer:2
+                            </div><br>
+                            <p>Mark the correct schematic with appropriate current direction for a reverse-biased diode.A – Anode, K- Cathode</p><br><br>
+                            <b>Biasing  a Diode</b><br><br>
+                            <p>The term bias refers to the use of a DC voltage to establish certain operating conditions for an electronic device.
+                                Depending on the magnitude and polarity of the applied voltage the diode is said to be: <br> 
+                                Forward Biased, Anode voltage is greater than the
+                                Cathode voltage Reverse Biased, Cathode voltage is greater than the Anode voltage</p><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode3.png" style="width:300px ; height:300px">
+                                </p><br>
+                                Figurer:3
+                            </div><br><br>
+                            <b>Ideal Diode Model</b><br><br>
+                            <p>So, diode is a simple switch that is either closed (conducting) or open (non conducting). Specifically, the diode is a short circuit, like a closed switch, when voltage is applied in the forward direction, and an open circuit, 
+                                like an open switch, when the voltage is applied in the reverse direction.</p><br><br>
+
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode4.png" style="width:300px ; height:300px">
+                                </p><br>
+                                Figurer:4
+                            </div><br><br>
+                            <b>I-V Characteristics of Ideal Diode</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode5.png" style="width:300px ; height:300px">
+                                </p><br>
+                                Figurer:5
+                            </div><br><br>
+                            <p>Quadrant I of the graph is labeled as the forward operating region because every combination of (V<sub>d</sub>) and (I<sub>d</sub> ) fall within this region of the graph.<br>
+                                Quadrant III of the graph is labeled as the reverse operating region.
+                                Here the diode is reverse biased and negative values of voltage (V<sub>r</sub> ) are being applied to it.</p><br><br>
+                            <b>Offset Voltage Model</b><br><br>
+                            <p>Let us now take the earlier model one more step.The offset voltage model adds the
+                                barrier potential to the ideal switch model. When the diode is forward biased it is equivalent to a 
+                                closed switch in series with a small equivalent voltage source equal to the barrier potential (0.7 V for Silicon, 0.4 for germanium)
+                                with the positive side towards the anode. When the diode is reverse biased, it is equivalent to an open switch just as in the ideal model.</p><br><br>
+
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode6.png" style="width:300px ; height:200px">
+                                </p><br>
+                                Figurer:6
+                            </div><br><br>
+                            <b>I-V Characteristics of Offset Voltage Diode</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode7.png" style="width:300px ; height:200px">
+                                </p><br>
+                                Figurer:7
+                            </div><br><br>
+                            <p>When forward biased, V<sub>g</sub>( 0.7 for Silicon and 0.4 for Germanium ) volts appears across the diode and current flows. 
+                                During reverse bias, when the voltage applied across the diode is less thanV<sub>g</sub>, there will be no current flowing.</p><br><br>
+                            <b>Complete diode Model</b><br><br>
+                            <p>Let us now take the earlier model one more step. It is the most accurate of the diode models.
+                                The Complete diode model of a diode consists of the barrier potential, the small forward dynamic resistance and the ideal diode. The resistor approximates the semiconductor resistance under forward bias.
+                                This diode model most accurately represents the true operating characteristics of the real diode.</p><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode8.png" style="width:500px ; height:300px">
+                                </p><br>
+                                Figurer:8
+                            </div><br><br>
+                            <b>Factors that make this model accurate</b><br><br>
+                            <ol>
+                                <li> Bulk Resistance, R<sub>B</sub></li>
+                                <li>Reverse Current, I<sub>r</sub></li>
+                            </ol><br>
+                            <p>Reverse current is made up of two independent currents reverse saturation current, 
+                                I<sub>S</sub> and surface leakage current ISL <br>I<sub>r</sub> = I<sub>s</sub> + Isl<br>Reverse Saturation Current is the current caused by 
+                                thermal activity in the two diode materials(i.e p type and n type). It is strictly a function of temperature and 
+                                it is not affected by the amount of reverse bias applied to the diode. This accounts for the major portion of reverse current.
+                                <br>  Surface leakage Current is the current that is present on the surface of the diode. 
+                                This current will increase with the increase in reverse bias.</p><br><br>
+                            <b>I-V Characteristics of Real Diode</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode9.png" style="width:500px ; height:300px">
+                                </p><br>
+                                Figurer:9
+                            </div><br><br>
+                            <p>Choose the correct I-V Characteristics of a Si and Ge diode</p><br><br>
+                            <b>I-V Characteristics of Real Silicon Diode</b><br><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diode10.png" style="width:500px ; height:300px">
+                                </p><br>
+                                Figurer:10
+                            </div><br><br>
+                            <b>Static and Dynamic Resistance</b><br><br>
+                            <ol>
+                                <li>Static Resistance of a P-N junction diode is the ratio of forward voltage to forward current</li>
+                                <li>Dynamic Resistance of a P-N junction diode is the small change in forward voltage to small change in forward current at a particular operating point.</li>
+                            </ol><br>
+                            R<sub>static</sub>=V<sub>F</sub>/I<sub>F</sub> at particular operating point<br>
+                            R<sub>Dynamic</sub>=&#916;V<sub>F</sub>/&#916;I<sub>F</sub><br><br>
+                            <b>Note</b><br><br>
+                            <p> When a diode is reverse biased a leakage current flows through the device. This current can be effectively 
+                                ignored as long as the reverse breakdown voltage of the diode is not exceeded. 
+                                At potentials greater than the reverse breakdown voltage, charge is pulled through the p-n junction by the strong electric fields in the device and large reverse current flows. This usually destroys the device. There are special diodes that are designed to operate in breakdown.
+                                Such diodes are called zener diodes and used as voltage regulators.</p><br><br>
+                            <b>When is each Model used ?</b><br><br>
+                            <p>Ideal Diode Model<br><br>
+                                This is primarily used in troubleshooting. Is the diode working or not. 
+                                The greatest utility of the ideal diode model is in determining which diodes are on and which are off in a multi-diode circuit.<br><br>
+                                Offset Voltage Model<br><br>This is used when a more accurate determination of load current or voltage 
+                                is required.<br><br> Complete Diode Model<br> <br>This is use during the actual design of circuits using diodes. </p><br><br>
+                            Slides:&nbsp;<a href ="./content/slidethy.html">VI Characteristics of a Diode</a><br><br>
+                            pdf:&nbsp;<a href ="./content/diodethry.pdf">Theory  VI Characteristics of a Diode</a>
+                            <!--<p>
+                                <object width="900" height="500" data="./content/C005/T001/viewer.swf" type="application/x-shockwave-flash">
+                                    <param name="src" value="./content/C005/T001/viewer.swf"/>
+                                </object>
+                            </p> -->                         
+                        </div>
+                    </section><!-- Second section of the article-->
+
+                    <!-----------------------------------SECTION - 2--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-2">
+                        <div class="icon" id="experiment-article-section-2-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/procedure.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-2-heading">
+                            Procedure
+                        </div>
+
+                        <div class="content" id="experiment-article-section-2-content">           
+
+                            <b>Diode Experiments</b><br><br>
+                            Forward / Reverse bias characteristics of Silicon Diode Diode Experiments<br><br>
+                            <b>Forward Bias – Silicon Diode</b><br><br>
+                            <ol>
+                                <li> Take Resistor of 1Kohms</li>
+                                <li>Connect to Si Diode.</li>
+                                <li>Use Ammeter to measure current and Voltmeter to measure Voltage</li>
+                                <li>Setup the circuit as shown</li><br>
+
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr1.png" style="width:400px; height:300px">
+                                    </p><br>
+                                    Figure:1
+                                </div><br><br>
+                                <li>One way to measure the VI Characteristics of the diode is the set the DC source at various voltage levels</li>
+                                <li>   Note the current in the ammeter and voltage in the voltmeter</li>
+                                <li>Plot the current against voltage</li><br>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr2.png" style="width:500px; height:300px">
+                                    </p><br>
+                                    Figure:2
+                                </div><br><br>
+                                <li>Instead of re-running the experiment at various voltage values from DC source, let us parameterize</li>
+                                <li>Click on Simulation Properties – Advanced Analysis</li>
+                                <li>Choose DC Source and Vary the voltage from 0V to 5V to record the voltage and current across the diode</li><br>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr3.png" style="width:300px; height:400px">
+                                    </p><br>
+                                    Figure:3
+                                </div><br><br>
+                                <li>Run the experiment</li>
+                                <li>On successful run, click on Data Analysis to view the current and the voltage readings</li>
+                                <li>Choose to plot against the voltage the current.</li>
+                                <li>Edit the properties of the graph to view a closer segment of the plot</li><br>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr4.png" style="width:300px; height:300px">
+                                    </p><br>
+                                    Figure:4
+                                </div><br><br>
+                                <li>Select 0.4 V to 0.9 V on the X Axis with interval of 0.01 V</li>
+                                <li>On the zoomed graph – measure the</li>
+                                <li>Cut off Voltage</li>
+                                <li>Static Resistance</li>
+                                <li>Dynamic Resistance</li>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr5.png" style="width:300px; height:400px">
+                                    </p><br>
+                                    Figure:5
+                                </div><br><br>
+                                <div align="center">
+                                    <p>
+                                        <img src="image/diodepr6.png" style="width:300px; height:300px">
+                                    </p><br>
+                                    Figure:6
+                                </div><br><br>
+                                <li>Hint – to calculate Static and Dynamic Resistances</li>
+                                <li>Zoom in the Y axis as well.</li>
+                                <li>Dynamic Resistance = Slope of the graph for a particular point</li>
+                            </ol><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diodepr7.png" style="width:300px; height:300px">
+                                </p><br>
+                                Figure:7
+                            </div><br><br>
+                            <b>Reverse Bias – Silicon Diode</b><br><br>
+                            <ol>
+                                <li>Silicon Diode Setup the circuit as before – but reverse the diode in the circuit so that it is reversed biased.</li>
+                                <li>Go through the same steps as before to record the Current and Voltage Readings.</li>
+                            </ol><br>
+                            <div align="center">
+                                <p>
+                                    <img src="image/diodepr8.png" style="width:400px; height:300px">
+                                </p><br>
+                                Figure:8
+                            </div><br><br>
+                            Slides:&nbsp;<a href ="./content/slidepr.html">VI Characteristics of a Diode</a><br><br>
+                            pdf:&nbsp;<a href ="./content/diodeprc.pdf">Procedure VI Characteristics of a Diode</a>
+                            <!--<p>
+                                <object width="900" height="500" data="./content/C005/T002/viewer.swf" type="application/x-shockwave-flash">
+                                    <param name="src" value="./content/C005/T002/viewer.swf"/>
+                                </object>
+                            </p>    -->                       
+                        </div>
+                    </section>                   
+                    <!-----------------------------------SECTION - 3--------------------------------------------------------------------------------->                    
+
+                    <section id="experiment-article-section-3">
+                        <div class="icon" id="experiment-article-section-3-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/simulation.jpg"></div>
+
+                        <div class="heading" id="experiment-article-section-3-heading">
+                            Simulation
+                        </div>
+
+                        <div class="content" id="experiment-article-section-3-content" style="background:Gainsboro;position:relative;top:20px;width:500px;height:300px;left:210px;">      
+                             <h2><marquee style="color:green;font-size:25pt">V-I Characteristics of Diode</marquee></h2>
+
+                            <input type="button" onclick="location.href = './diodefrw.html';" value="Forward Biased" style="position:absolute;top:100px;right:200px;"/>
+                            <input type="button" onclick="location.href = './diodervrs.html';" value="Reverse Biased" style="position:absolute;top:150px;right:200px;"/>
+
+                            <!-- <p>
+                                 <object width="900" height="500" data="./content/C005/T003/viewer.swf" type="application/x-shockwave-flash">
+                                     <param name="src" value="./content/C005/T003/viewer.swf"/>
+                                 </object>
+                             </p>-->                           
+                        </div>
+                    </section>         
+                    <!------------------------------ SECTION - 4------------------------------------------------>
+
+                    <section id="experiment-article-section-4">
+                        <div class="icon" id="experiment-article-section-4-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/quizzes.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a div tag. -->
+
+                        <div class="heading" id="experiment-article-section-4-heading">
+                            Quiz
+                        </div><!-- Write the section content inside a paragraph element, we can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-4-content">
+                            <div id="vlab-quiz-wrapper">
+                                <p style="text-align:left; font-size:18px; font-weight:bold;">Test Your Knowledge!!</p><br/>
+                                <div id="vlab-quiz-question-answer-options"></div>
+                                <div id="vlab-quiz-result"></div>
+                                <br/>
+                                <div id="vlab-quiz-trigger">
+                                    <button id="vqt-start" onclick="quizInitialize()" style="display: block;">Start</button>
+                                    <button id="vqt-next" onclick="quizNext()" style="display: none;">Next>></button> 
+                                    <button id="vqt-try-again" onclick="tryAgain()" style="display: none;">Try Again!</button>
+                                </div>            
+                            </div>
+                        </div>
+                    </section>
+                    <!------------------------------ SECTION - 4------------------------------------------------>
+
+                    <section id="experiment-article-section-5">
+                        <div class="icon" id="experiment-article-section-5-icon">
+                            <!-- Enclose the icon image of your lab. -->
+                            <img src="../images/readings.jpg"></div>
+                        <!-- The heading for the section can be enclosed in a div tag. -->
+
+                        <div class="heading" id="experiment-article-section-5-heading">
+                            References
+                        </div><!-- Write the section content inside a paragraph element, we can also include images with &lt;img&gt; tag -->
+
+                        <div class="content" id="experiment-article-section-5-content">
+                            Web References:
+
+                        </div>
+                </div>
+                </section>  
+        </div>
+    </article>
+</div>
+</body>
+</html>
