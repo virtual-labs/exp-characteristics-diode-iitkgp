@@ -1,0 +1,111 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Can a diode act as a Switch?",
+        "answers": {
+          "a": "No",
+          "b": "Maybe",
+          "c": "Yes"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is correct"
+          
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The V-I characteristics curve is almost a straight line above the knee point.",
+        "answers": {
+          "a": "Yes",
+          "b": "No"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is correct  ",
+          "b": "You have choosen option (b). The answer is incorrect"
+         
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Reverse current in diode is a linear function of the Reverse voltage.",
+        "answers": {
+          "a": "Yes",
+          "b": "No"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is correct"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In a silicon diode reverse current is usually:",
+        "answers": {
+          "a": "very small",
+          "b": "very large",
+          "c":"zero",
+          "d":"in the breakdown"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is correct",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d": "You have choosen option (d). The answer is incorrect"
+          
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Which is the most widely used semiconductor?",
+        "answers": {
+          "a": "Copper",
+          "b": "Germanium",
+          "c":"Silicon",
+          "d":"None of the above"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is incorrect",
+          "c": "You have choosen option (c). The answer is correct",
+          "d": "You have choosen option (d). The answer is incorrect"
+          
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "A diode conducts when it is forward-biased, and the anode is connected to the ________ through a limiting resistor.",
+        "answers": {
+          "a": "Cathode",
+          "b": "Positive supply",
+          "c":"Negative supply",
+          "d":"anode"
+          
+        },
+        "explanations": {
+          "a": "You have choosen option (a). The answer is incorrect",
+          "b": "You have choosen option (b). The answer is correct",
+          "c": "You have choosen option (c). The answer is incorrect",
+          "d": "You have choosen option (d). The answer is incorrect"
+          
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+
+    ]
+  }
+  

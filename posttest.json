@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the barrier potential of a Silicon diode and Germanium Diode at room temperature?",
+      "answers": {
+        "a": "Si=0.3, Ge=0.7",
+        "b": "Si=0.7, Ge=1",
+        "c": "Si=1, Ge=0.3",
+        "d": "Si=0.7, Ge=0.3"
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d": "You have choosen option (d). The answer is correct"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A silicon diode measures a low value of resistance with the meter leads in both positions. The trouble, if any, is",
+      "answers": {
+        "a": "the diode is open.",
+        "b": "the diode is shorted to ground.",
+        "c": " the diode is internally shorted.",
+        "d": "the diode is working correctly."
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect  ",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct",
+        "d": "You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "An ideal Si and an ideal Ge diode are connected in parallel with their anodes joined together and connected to a +5V supply and the cathodes joined together and connected to the other side of the supply voltage through a 1 K? resistor. If the current through the Si diode = IS and the current through the Ge diode = IG then select the correct answers from the options below.",
+      "answers": {
+        "a": "IS = 4.3 mA & IG = 0 mA",
+        "b": "IS = IG= 2.15 mA",
+        "c": "IS = 0 mA & IG = 4.7 mA",
+        "d": " IS = IG = 2.35 mA"
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct",
+        "d": "You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Predict how all component voltages and currents in this circuit will be affected as a result of the following fault. <br/><p style=\"text-align:center\"><img src=\"images/diodeq3.png\"></p> ",
+      "answers": {
+        "a": "No current in circuit, no voltage across R1, full source voltage across D1.",
+        "b": "Increased current in circuit, full source voltage across R1, little voltage across D1.",
+        "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
+        "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect",
+        "b": "You have choosen option (b). The answer is correct",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d": "You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Predict how all component voltages and currents in this circuit will be affected as a result of the following fault. <br/><p style=\"text-align:center\"><img src=\"images/diodeq2.png\"></p> ",
+      "answers": {
+        "a": "No current in circuit, no voltage across R1, full source voltage across D1.",
+        "b": "Increased current in circuit, full source voltage across R1, little voltage across D1.",
+        "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
+        "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is correct",
+        "d": "You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Predict how all component voltages and currents in this circuit will be affected as a result of the following fault. <br/><p style=\"text-align:center\"><img src=\"images/diodeq1.png\"></p> ",
+      "answers": {
+        "a": "No current in circuit, no voltage across R1, full source voltage across D1.",
+        "b": "Increased current in circuit, full source voltage across R1, little voltage across D1.",
+        "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
+        "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is correct",
+        "b": "You have choosen option (b). The answer is incorrect",
+        "c": "You have choosen option (c). The answer is incorrect",
+        "d": "You have choosen option (d). The answer is incorrect"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
