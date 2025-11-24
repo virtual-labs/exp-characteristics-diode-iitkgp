@@ -13,7 +13,7 @@
 10. Therefore from the graph we see that the diode starts conducting when the forward bias voltage exceeds around 0.6 volts (for Si diode). This voltage is called cut-in voltage.
 
 <div align="center">
-<img src="images/diodefrw_pr.png" width="50%">
+<img src="images/diodefrw_pr.png" style="max-width=100%; height:auto;">
 <p>Figure:1</p>
 </div>
 
@@ -28,7 +28,7 @@
 8. Plot the V-I graph and observe the change.
 
 <div align="center">
-<img src="images/diodervrs_pr.png" width="50%">
+<img src="images/diodervrs_pr.png" style="max-width=100%; height:auto;">
 <p>Figure: 2</p>
 </div>
 
@@ -43,7 +43,7 @@
 8. Therefore from the graph we see that the diode starts conducting when the forward bias voltage exceeds around 0.3 volts (for Ge diode). This voltage is called cut-in voltage.
 
 <div align="center">
-<img src="images/diodefrw_pr.png" width="50%">
+<img src="images/diodefrw_pr.png" style="max-width=100%; height:auto;">
 <p>Figure: 3</p>
 </div>
 
@@ -59,7 +59,7 @@
 7. Plot the V-I graph and observe the change.
 
 <div align="center">
-<img src="images/diodervrs_pr.png" width="50%">
+<img src="images/diodervrs_pr.png" style="max-width=100%; height:auto;">
 <p>Figure: 4</p>
 </div>
 

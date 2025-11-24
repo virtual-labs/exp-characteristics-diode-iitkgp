@@ -6,12 +6,12 @@
 The diode is a device formed from a junction of n-type and p-type semiconductor material. The lead connected to the p-type material is called the anode and the lead connected to the n-type material is the cathode. In general, the cathode of a diode is marked by a solid line on the diode.
 
 <div align="center">
-<img src="images/diodest.png" width="30%">
+<img src="images/diodest.png" style="max-width=100%; height:auto;">
 <p>Figure 1  </p>
 </div>
 
 <div align="center">
-<img src="images/diodestr.png" width="30%">
+<img src="images/diodestr.png" style="max-width=100%; height:auto;">
 <p>Figure 2  </p>
 </div>
 
@@ -20,7 +20,7 @@ The diode is a device formed from a junction of n-type and p-type semiconductor 
 The positive terminal of battery is connected to the P side(anode) and the negative terminal of battery is connected to the N side(cathode) of a diode, the holes in the p-type region and the electrons in the n-type region are pushed toward the junction and start to neutralize the depletion zone, reducing its width. The positive potential applied to the p-type material repels the holes, while the negative potential applied to the n-type material repels the electrons. The change in potential between the p side and the n side decreases or switches sign. With increasing forward-bias voltage, the depletion zone eventually becomes thin enough that the zone's electric field cannot counteract charge carrier motion across the p–n junction, which as a consequence reduces electrical resistance. The electrons that cross the p–n junction into the p-type material (or holes that cross into the n-type material) will diffuse into the nearby neutral region. The amount of minority diffusion in the near-neutral zones determines the amount of current that may flow through the diode.
 
 <div align="center">
-<img src="images/frwd.png" width="30%">
+<img src="images/frwd.png" style="max-width=100%; height:auto;">
 <p>Figure 3  </p>
 </div>
 
@@ -29,7 +29,7 @@ The positive terminal of battery is connected to the P side(anode) and the negat
 The positive terminal of battery is connected to the N side(cathode) and the negative terminal of battery is connected to the P side(anode) of a diode. Therefore, very little current will flow until the diode breaks down.
 
 <div align="center">
-<img src="images/rvrsd.png" width="30%">
+<img src="images/rvrsd.png" style="max-width=100%; height:auto;">
 <p>Figure 4  </p>
 </div>
 
@@ -41,7 +41,7 @@ The strength of the depletion zone electric field increases as the reverse-bias 
 **In forward biasing**, the positive terminal of battery is connected to the P side and the negative terminal of battery is connected to the N side of the diode. Diode will conduct in forward biasing because the forward biasing will decrease the depletion region width and overcome the barrier potential. In order to conduct, the forward biasing voltage should be greater than the barrier potential. During forward biasing the diode acts like a closed switch with a potential drop of nearly 0.6 V across it for a silicon diode. The forward and reverse bias characteristics of a silicon diode. From the graph, you may notice that the diode starts conducting when the forward bias voltage exceeds around 0.6 volts (for Si diode). This voltage is called cut-in voltage.
 
 <div align="center">
-<img src="images/frwpltsi.png" width="30%">
+<img src="images/frwpltsi.png" style="max-width=100%; height:auto;">
 <p>Figure 5  </p>
 </div>
 
@@ -52,7 +52,7 @@ The strength of the depletion zone electric field increases as the reverse-bias 
 **In forward biasing**, the positive terminal of battery is connected to the P side and the negative terminal of battery is connected to the N side of the diode. Diode will conduct in forward biasing because the forward biasing will decrease the depletion region width and overcome the barrier potential. In order to conduct, the forward biasing voltage should be greater than the barrier potential. During forward biasing the diode acts like a closed switch with a potential drop of nearly 0.3 V across it for a germanium diode. The forward and reverse bias characteristics of a germanium diode. From the graph, you may notice that the diode starts conducting when the forward bias voltage exceeds around 0.3 volts (for Ge diode). This voltage is called cut-in voltage.
 
 <div align="center">
-<img src="images/frwpltge.png" width="30%">
+<img src="images/frwpltge.png" style="max-width=100%; height:auto;">
 <p>Figure 6  </p>
 </div>
 
