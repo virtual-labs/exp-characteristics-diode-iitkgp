@@ -9,12 +9,7 @@
         "c": "Si=1, Ge=0.3",
         "d": "Si=0.7, Ge=0.3"
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect",
-        "b": "You have choosen option (b). The answer is incorrect",
-        "c": "You have choosen option (c). The answer is incorrect",
-        "d": "You have choosen option (d). The answer is correct"
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -26,12 +21,7 @@
         "c": " the diode is internally shorted.",
         "d": "the diode is working correctly."
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect  ",
-        "b": "You have choosen option (b). The answer is incorrect",
-        "c": "You have choosen option (c). The answer is correct",
-        "d": "You have choosen option (d). The answer is incorrect"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -43,12 +33,7 @@
         "c": "IS = 0 mA & IG = 4.7 mA",
         "d": " IS = IG = 2.35 mA"
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect",
-        "b": "You have choosen option (b). The answer is incorrect",
-        "c": "You have choosen option (c). The answer is correct",
-        "d": "You have choosen option (d). The answer is incorrect"
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -60,12 +45,7 @@
         "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
         "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect",
-        "b": "You have choosen option (b). The answer is correct",
-        "c": "You have choosen option (c). The answer is incorrect",
-        "d": "You have choosen option (d). The answer is incorrect"
-      },
+      
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -77,12 +57,7 @@
         "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
         "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect",
-        "b": "You have choosen option (b). The answer is incorrect",
-        "c": "You have choosen option (c). The answer is correct",
-        "d": "You have choosen option (d). The answer is incorrect"
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -94,12 +69,7 @@
         "c": "No current in circuit, no voltage across D1, full source voltage across R1.",
         "d": "Large current in circuit, no voltage across R1, full source voltage across D1, D1 will most likely overheat and fail."
       },
-      "explanations": {
-        "a": "You have choosen option (a). The answer is correct",
-        "b": "You have choosen option (b). The answer is incorrect",
-        "c": "You have choosen option (c). The answer is incorrect",
-        "d": "You have choosen option (d). The answer is incorrect"
-      },
+    
       "correctAnswer": "a",
       "difficulty": "beginner"
     }
