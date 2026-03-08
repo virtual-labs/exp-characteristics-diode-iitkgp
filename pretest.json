@@ -1,0 +1,80 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Can a diode act as a Switch?",
+        "answers": {
+          "a": "No",
+          "b": "Maybe",
+          "c": "Yes"
+          
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The V-I characteristics curve is almost a straight line above the knee point.",
+        "answers": {
+          "a": "Yes",
+          "b": "No"
+          
+        },
+       
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Reverse current in diode is a linear function of the Reverse voltage.",
+        "answers": {
+          "a": "Yes",
+          "b": "No"
+          
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In a silicon diode reverse current is usually:",
+        "answers": {
+          "a": "very small",
+          "b": "very large",
+          "c":"zero",
+          "d":"in the breakdown"
+          
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "Which is the most widely used semiconductor?",
+        "answers": {
+          "a": "Copper",
+          "b": "Germanium",
+          "c":"Silicon",
+          "d":"None of the above"
+          
+        },
+      
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "A diode conducts when it is forward-biased, and the anode is connected to the ________ through a limiting resistor.",
+        "answers": {
+          "a": "Cathode",
+          "b": "Positive supply",
+          "c":"Negative supply",
+          "d":"anode"
+          
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+
+    ]
+  }
+  
